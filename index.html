@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Smith and Jackson popup Sales PROD</title>
+	<!--Include below script in Head tag.-->
+            <link rel="stylesheet" href="https://phoenixpopupuqast.z8.web.core.windows.net/style.css" />
+            <script src="https://phoenixpopupuqast.z8.web.core.windows.net/aiconcierge.js"></script>
+              <script>
+                if (window.Assistant) {
+                  let assistant = new Assistant({
+                    target: "target-chat-id",
+                    apiKey: "32711943-1891-4ce5-95e6-af2c76bfe2e4",
+                    productId: "random-id",
+                    chatBotType: "SalesConcierge"
+                  });
+                   window.onload = function() {assistant.init();}
+                }
+                if (window.dispatcher) {
+                  dispatcher.on("bot-ready", (e) => {
+                    console.log(e.detail);
+                  });
+                }
+              </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to S&J popup</h1>
+        <p>This is a S&J popup functionality</p>
+    </header>
+	<div class="container">
+    <h1>Welcome to My Static Website</h1>
+    <div class="buttons">
+      <a href="https://phoenixonboardingporqast.z8.web.core.windows.net/#/login/PROPME" target="_blank"><button>Button 1</button></a>
+      <a href="https://phoenixonboardingporqast.z8.web.core.windows.net/#/login/PROPME" target="_blank"><button>Button 2</button></a>
+    </div>
+  </div>
+
+    <section>
+        <h2>About the Site</h2>
+        <p>This Site is to test the S&J popup Sales Functionality</p>
+        <img src="sample_image.jpg" alt="Sample Image" width="400" />
+    </section>
+
+    <footer>
+        <p>&copy; 2024 S&J popup Sales. All rights reserved.</p>
+    </footer>
+</body>
+</html>
