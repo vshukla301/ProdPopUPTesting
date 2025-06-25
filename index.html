@@ -6,31 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles.css">
-    <title>Smith and Jackson popup Sales PROD</title>
-<!--Include below script in Head tag.-->
-            <link rel="stylesheet" href="https://popup.conciergeservices.ai/style.css" />
-            <script src="https://popup.conciergeservices.ai/aiconcierge.js"></script>
-              <script>
-                if (window.Assistant) {
-                  let assistant = new Assistant({
-                    target: "target-chat-id",
-                    apiKey: "b4b3eda6-b3a7-4947-935a-5b0a1c2f7b8c",
-                    productId: "random-id",
-                    chatBotType: "SalesConcierge"
-                  });
-                   window.onload = function() {assistant.init();}
-                }
-                if (window.dispatcher) {
-                  dispatcher.on("bot-ready", (e) => {
-                    console.log(e.detail);
-                  });
-                }
-              </script>
+    <title>Agent AI Chat bot</title>
+<script>
+  (function() {
+    var ns = document.createElement('script');
+    ns.src = ('https://chatapps-qa-a.netomi.com/app/script.js');ns.type = 'text/javascript'; ns.async = true;
+    ns.setAttribute('botRefId', 'f3388a6b-ebd3-4852-828e-22bce5e6e4b8');
+    var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ns, s);
+    ns.onload = function () {window.Netomi.chat.init(() => {/* add publish events here */})}})();
+</script>
 </head>
 <body>
     <header>
-        <h1>Welcome to S&J popup</h1>
-        <p>This is a S&J popup functionality</p>
+        <h1>Welcome to Agent AI popup</h1>
+        <p>This is a Agent AI popup functionality</p>
     </header>
 	<div class="container">
     <h1>Welcome to My Static Website</h1>
@@ -42,12 +31,12 @@
 
     <section>
         <h2>About the Site</h2>
-        <p>This Site is to test the S&J popup Sales Functionality</p>
+        <p>This Site is to test the Agent AI popup Sales Functionality</p>
         <img src="sample_image.jpg" alt="Sample Image" width="400" />
     </section>
 
     <footer>
-        <p>&copy; 2024 S&J popup Sales. All rights reserved.</p>
+        <p>&copy; 2024 Agent AI popup. All rights reserved.</p>
     </footer>
 </body>
 </html>
